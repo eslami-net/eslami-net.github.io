@@ -25,24 +25,12 @@ export default function Education({ educations }) {
     >
       <CardContent>
         <Typography variant="body1" component="span">
-          Experiences
+          Educations
         </Typography>
         <Timeline>
-          {experiences?.map((e) => {
+          {educations?.map((e) => {
             return (
               <TimelineItem position="alternate">
-                <TimelineOppositeContent
-                  sx={{ m: "auto 0" }}
-                  align="right"
-                  variant="body2"
-                  color="text.secondary"
-                >
-                  <ul>
-                    {e.tasks?.map((t) => {
-                      return <li>{t}</li>;
-                    })}
-                  </ul>
-                </TimelineOppositeContent>
                 <TimelineSeparator>
                   <TimelineDot />
                   <TimelineConnector />
@@ -50,17 +38,14 @@ export default function Education({ educations }) {
                 <TimelineContent sx={{ py: "12px", px: 2 }}>
                   <Typography variant="h7" component="span">
                     <Link href={e.url} target="_blank" color="inherit">
-                      {e.company}
+                      {e.school}
                     </Link>
                   </Typography>
                   <Typography variant="body2" color="text.secondary">
-                    {e.from} - {e.to}
+                    {e.degree}
                   </Typography>
                   <br />
                   <Typography variant="body2">{e.title}</Typography>
-                  <Typography variant="body2" color="text.secondary">
-                    {e.summery}
-                  </Typography>
                 </TimelineContent>
               </TimelineItem>
             );

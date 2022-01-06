@@ -37,11 +37,11 @@ export default function Experience({ experiences }) {
                   variant="body2"
                   color="text.secondary"
                 >
-                  <ul>
+                  {/* <ul>
                     {e.tasks?.map((t) => {
-                      return <li>{t}</li>;
+                      return <p>{t}</p>;
                     })}
-                  </ul>
+                  </ul> */}
                 </TimelineOppositeContent>
                 <TimelineSeparator>
                   <TimelineDot />
@@ -56,11 +56,11 @@ export default function Experience({ experiences }) {
                   <Typography variant="body2" color="text.secondary">
                     {e.from} - {e.to}
                   </Typography>
-                  <br />
-                  <Typography variant="body2">{e.title}</Typography>
                   <Typography variant="body2" color="text.secondary">
                     {e.summery}
                   </Typography>
+                  <br />
+                  <Typography variant="body2">{e.title}</Typography>
                 </TimelineContent>
               </TimelineItem>
             );

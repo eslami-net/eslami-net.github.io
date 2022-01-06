@@ -54,7 +54,7 @@
       "title": "Computer Vision Researcher",
       "from": "Nov. 2018",
       "to": "Jan. 2019",
-      "summery": "Computer Vision in Welding Inspection",
+      "summery": "Computer Vision in Inspection",
       "tasks": ["Image labeling", "Object detection", "Object classification"]
     },
     {
@@ -72,21 +72,21 @@
       ]
     }
   ],
-  "Educations": [
+  "educations": [
     {
       "school": "Amirkabir University",
-      "title": "Precision Improvement In Image Based 3D Model Improvement of Vehicle's",
-      "degree": "Ph.D. in Electrical Eng."
+      "degree": "Ph.D. in Electrical Eng.",
+      "title": "Precision Improvement In Image Based 3D Model Improvement of Vehicle's"
     },
     {
       "school": "Amirkabir University",
-      "title": "Dynamic parameter extraction of moving vehicles using projective geometry and image processing techniques",
-      "degree": "Master in Electrical Eng."
+      "degree": "Master in Electrical Eng.",
+      "title": "Dynamic parameter extraction of moving vehicles using projective geometry and image processing techniques"
     },
     {
       "school": "Amirkabir University",
-      "title": "Bachelor in Electrical Eng.",
-      "degree": "Implementation of an infrared network to transfer multiple channels of voice"
+      "degree": "Bachelor in Electrical Eng.",
+      "title": "Implementation of an infrared network to transfer multiple channels of voice"
     }
   ]
 }

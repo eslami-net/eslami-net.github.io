@@ -7,6 +7,7 @@ import LeftBar from "./components/layout/LeftBar";
 import Spacer from "./components/layout/Spacer";
 import AboutMe from "./components/parts/home/AboutMe";
 import Experience from "./components/parts/profession/Experience";
+import Education from "./components/parts/education/Education";
 
 function App() {
   const matches = useMediaQuery("(min-width:600px)"); // is greater than 600
@@ -54,6 +55,7 @@ function App() {
           }}
         >
           <Experience experiences={data?.experiences}></Experience>
+          <Education educations={data?.educations}></Education>
         </div>
       </div>
       <p></p>
