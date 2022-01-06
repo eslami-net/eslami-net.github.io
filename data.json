@@ -18,5 +18,75 @@
       ["DevOps", 40]
     ],
     "resume": "./data/Hamed Eslami CV_20201125.pdf"
-  }
+  },
+  "experiences": [
+    {
+      "company": "SponixTech",
+      "url": "https://sponixtech.com/",
+      "title": "Computer Vision Researcher",
+      "from": "May. 2019",
+      "to": "present",
+      "summery": "Computer Vision in sports",
+      "tasks": [
+        "Camera calibration",
+        "Player segmentation",
+        "3D pose estimation",
+        "Face image enhancement"
+      ]
+    },
+    {
+      "company": "Rasad Intelligent Tech.",
+      "url": "https://rasadco.com/",
+      "title": "Computer Vision Researcher",
+      "from": "Jan. 2017",
+      "to": "May. 2019",
+      "summery": "Computer Vision in ITS",
+      "tasks": [
+        "License plate recognition",
+        "Face detection & recognition",
+        "Image distortion removal",
+        "Motion detection"
+      ]
+    },
+    {
+      "company": "Viranegar Farabin Tech.",
+      "url": "http://vnegar.com/en/",
+      "title": "Computer Vision Researcher",
+      "from": "Nov. 2018",
+      "to": "Jan. 2019",
+      "summery": "Computer Vision in Inspection",
+      "tasks": ["Image labeling", "Object detection", "Object classification"]
+    },
+    {
+      "company": "AIMS Control",
+      "url": "http://aimscontrol.com/",
+      "title": "Computer Vision Engineer",
+      "from": "Mar. 2010",
+      "to": "Jan. 2017",
+      "summery": "Computer Vision in ITS",
+      "tasks": [
+        "License plate recognition",
+        "Intersection Monitoring",
+        "Vehicle Speed Estimation",
+        "Camera Calibration"
+      ]
+    }
+  ],
+  "educations": [
+    {
+      "school": "Amirkabir University",
+      "degree": "Ph.D. in Electrical Eng.",
+      "title": "Precision Improvement In Image Based 3D Model Improvement of Vehicle's"
+    },
+    {
+      "school": "Amirkabir University",
+      "degree": "Master in Electrical Eng.",
+      "title": "Dynamic parameter extraction of moving vehicles using projective geometry and image processing techniques"
+    },
+    {
+      "school": "Amirkabir University",
+      "degree": "Bachelor in Electrical Eng.",
+      "title": "Implementation of an infrared network to transfer multiple channels of voice"
+    }
+  ]
 }
