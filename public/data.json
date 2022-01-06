@@ -1,0 +1,22 @@
+{
+  "general": {
+    "name": "Hamed Eslami",
+    "face": "./images/face.jpg",
+    "avatar": "./images/avatar.png",
+    "avatarSmall": "./images/avatar-small.png"
+  },
+  "home": {
+    "sloganPrefix": "Computer Vision is fun; ",
+    "slogans": ["Let's learn it!", "Let's use it!", "Let's love it!"]
+  },
+  "aboutme": {
+    "description": "It has been more than 15 years that I have been using artificial intelligence and specially computer vision to solve problems in dirrefent industries, like sports, ITS (Intelligent Transportation Systems) and video surveilance.",
+    "avatar": "./images/avatar.png",
+    "skills": [
+      ["Artificial Intelligence", 90],
+      ["Software Developement", 60],
+      ["DevOps", 40]
+    ],
+    "resume": "./data/Hamed Eslami CV_20201125.pdf"
+  }
+}
