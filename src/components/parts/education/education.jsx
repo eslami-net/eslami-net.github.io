@@ -19,7 +19,7 @@ export default function Education({ educations }) {
     <Card
       style={{
         borderRadius: 25,
-        width: matches ? "500px" : "90%",
+        width: matches ? "400px" : "90%",
         margin: 20,
         padding: 10,
       }}
@@ -28,17 +28,20 @@ export default function Education({ educations }) {
         <Typography variant="body1" component="span">
           Educations
         </Typography>
-        <Timeline>
+        <Timeline sx={{ ml: "0", pl: 0 }}>
           {educations?.map((e) => {
             return (
-              <TimelineItem position="alternate">
+              <TimelineItem>
+                <TimelineOppositeContent
+                  style={{ flex: 0.1 }}
+                ></TimelineOppositeContent>
                 <TimelineSeparator>
                   <TimelineDot color="primary" variant="outlined">
-                    <LocalLibraryIcon />
+                    <LocalLibraryIcon color="primary" />
                   </TimelineDot>
                   <TimelineConnector color="primary" />
                 </TimelineSeparator>
-                <TimelineContent sx={{ py: "12px", px: 2 }}>
+                <TimelineContent>
                   <Typography variant="h7" component="span">
                     <Link href={e.url} target="_blank" color="inherit">
                       {e.school}
@@ -50,6 +53,7 @@ export default function Education({ educations }) {
                   <br />
                   <Typography variant="body2">{e.title}</Typography>
                 </TimelineContent>
+                <br />
               </TimelineItem>
             );
           })}

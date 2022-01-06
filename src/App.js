@@ -7,6 +7,7 @@ import LeftBar from "./components/layout/LeftBar";
 import Spacer from "./components/layout/Spacer";
 import AboutMe from "./components/parts/home/AboutMe";
 import Experience from "./components/parts/profession/Experience";
+import Project from "./components/parts/profession/Project";
 import Education from "./components/parts/education/Education";
 
 function App() {
@@ -57,6 +58,7 @@ function App() {
           <Experience experiences={data?.experiences}></Experience>
           <Education educations={data?.educations}></Education>
         </div>
+        <Project projects={data?.projects}></Project>
       </div>
       <p></p>
       <br></br>

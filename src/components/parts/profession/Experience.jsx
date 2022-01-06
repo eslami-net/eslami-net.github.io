@@ -11,6 +11,7 @@ import TimelineOppositeContent from "@mui/lab/TimelineOppositeContent";
 import Link from "@mui/material/Link";
 import Card from "@mui/material/Card";
 import CardContent from "@mui/material/CardContent";
+import BusinessCenterIcon from "@mui/icons-material/BusinessCenter";
 
 export default function Experience({ experiences }) {
   const matches = useMediaQuery("(min-width:600px)"); // is greater than 600
@@ -18,7 +19,7 @@ export default function Experience({ experiences }) {
     <Card
       style={{
         borderRadius: 25,
-        width: matches ? "500px" : "90%",
+        width: matches ? "400px" : "90%",
         margin: 20,
         padding: 10,
       }}
@@ -30,8 +31,9 @@ export default function Experience({ experiences }) {
         <Timeline>
           {experiences?.map((e) => {
             return (
-              <TimelineItem position="alternate">
+              <TimelineItem position="!alternate">
                 <TimelineOppositeContent
+                  style={{ flex: 0.1 }}
                   sx={{ m: "auto 0" }}
                   align="right"
                   variant="body2"
@@ -44,7 +46,9 @@ export default function Experience({ experiences }) {
                   </ul> */}
                 </TimelineOppositeContent>
                 <TimelineSeparator>
-                  <TimelineDot />
+                  <TimelineDot color="primary" variant="outlined">
+                    <BusinessCenterIcon color="primary" />
+                  </TimelineDot>
                   <TimelineConnector />
                 </TimelineSeparator>
                 <TimelineContent sx={{ py: "12px", px: 2 }}>

@@ -36,9 +36,6 @@ export default function AboutMe({ aboutme }) {
             display: "flex",
             flexDirection: matches ? "row" : "column",
             alignItems: "center",
-            // borderColor: "red",
-            // justifyContent: "center",
-            // backgroundColor: "red",
           }}
         >
           <div>
