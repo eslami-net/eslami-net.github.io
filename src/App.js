@@ -46,7 +46,15 @@ function App() {
         <Spacer dim={50}></Spacer>
         <AboutMe aboutme={data?.aboutme}></AboutMe>
         <br></br>
-        <Experience experiences={data?.experiences}></Experience>
+        <div
+          style={{
+            display: "flex",
+            flexDirection: "row",
+            justifyContent: "center",
+          }}
+        >
+          <Experience experiences={data?.experiences}></Experience>
+        </div>
       </div>
       <p></p>
       <br></br>

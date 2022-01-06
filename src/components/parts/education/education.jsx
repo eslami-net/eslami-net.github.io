@@ -12,7 +12,7 @@ import Link from "@mui/material/Link";
 import Card from "@mui/material/Card";
 import CardContent from "@mui/material/CardContent";
 
-export default function Experience({ experiences }) {
+export default function Education({ educations }) {
   const matches = useMediaQuery("(min-width:600px)"); // is greater than 600
   return (
     <Card

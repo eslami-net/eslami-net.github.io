@@ -71,5 +71,22 @@
         "Camera Calibration"
       ]
     }
+  ],
+  "Educations": [
+    {
+      "school": "Amirkabir University",
+      "title": "Precision Improvement In Image Based 3D Model Improvement of Vehicle's",
+      "degree": "Ph.D. in Electrical Eng."
+    },
+    {
+      "school": "Amirkabir University",
+      "title": "Dynamic parameter extraction of moving vehicles using projective geometry and image processing techniques",
+      "degree": "Master in Electrical Eng."
+    },
+    {
+      "school": "Amirkabir University",
+      "title": "Bachelor in Electrical Eng.",
+      "degree": "Implementation of an infrared network to transfer multiple channels of voice"
+    }
   ]
 }
