@@ -60,7 +60,7 @@ export default function Experience({ experiences }) {
                     {e.summery}
                   </Typography>
                   <br />
-                  <Typography variant="body2">{e.title}</Typography>
+                  {/* <Typography variant="body2">{e.title}</Typography> */}
                 </TimelineContent>
               </TimelineItem>
             );

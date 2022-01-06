@@ -75,16 +75,19 @@
   "educations": [
     {
       "school": "Amirkabir University",
+      "url": "https://aut.ac.ir/",
       "degree": "Ph.D. in Electrical Eng.",
       "title": "Precision Improvement In Image Based 3D Model Improvement of Vehicle's"
     },
     {
       "school": "Amirkabir University",
+      "url": "https://aut.ac.ir/",
       "degree": "Master in Electrical Eng.",
       "title": "Dynamic parameter extraction of moving vehicles using projective geometry and image processing techniques"
     },
     {
       "school": "Amirkabir University",
+      "url": "https://aut.ac.ir/",
       "degree": "Bachelor in Electrical Eng.",
       "title": "Implementation of an infrared network to transfer multiple channels of voice"
     }

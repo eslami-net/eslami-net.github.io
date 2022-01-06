@@ -11,6 +11,7 @@ import TimelineOppositeContent from "@mui/lab/TimelineOppositeContent";
 import Link from "@mui/material/Link";
 import Card from "@mui/material/Card";
 import CardContent from "@mui/material/CardContent";
+import LocalLibraryIcon from "@mui/icons-material/LocalLibrary";
 
 export default function Education({ educations }) {
   const matches = useMediaQuery("(min-width:600px)"); // is greater than 600
@@ -32,8 +33,10 @@ export default function Education({ educations }) {
             return (
               <TimelineItem position="alternate">
                 <TimelineSeparator>
-                  <TimelineDot />
-                  <TimelineConnector />
+                  <TimelineDot color="primary" variant="outlined">
+                    <LocalLibraryIcon />
+                  </TimelineDot>
+                  <TimelineConnector color="primary" />
                 </TimelineSeparator>
                 <TimelineContent sx={{ py: "12px", px: 2 }}>
                   <Typography variant="h7" component="span">

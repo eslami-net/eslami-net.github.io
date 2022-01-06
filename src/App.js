@@ -10,7 +10,7 @@ import Experience from "./components/parts/profession/Experience";
 import Education from "./components/parts/education/Education";
 
 function App() {
-  const matches = useMediaQuery("(min-width:600px)"); // is greater than 600
+  const matches = useMediaQuery("(min-width:800px)"); // is greater than 600
   const [data, setData] = useState(null);
   const [open, setOpen] = useState(false);
   const getData = (address, setData) => {
@@ -50,7 +50,7 @@ function App() {
         <div
           style={{
             display: "flex",
-            flexDirection: "row",
+            flexDirection: matches ? "row" : "column",
             justifyContent: "center",
           }}
         >
