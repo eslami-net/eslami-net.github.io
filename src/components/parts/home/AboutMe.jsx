@@ -17,25 +17,15 @@ export default function AboutMe({ aboutme }) {
         display: "flex",
         flexDirection: "row",
         justifyContent: "center",
-        // backgroundColor: "red",
       }}
     >
       <div
         style={{
-          // borderRadius: 25,
-          // width: matches ? "500px" : "90%",
-          // margin: 20,
-          // padding: 10,
-          // backgroundColor: "red",
           display: "flex",
           flexDirection: "column",
           alignItems: "left",
-          // borderColor: "red",
           justifyContent: "center",
           marginTop: 20,
-          // backgroundColor: "red",
-
-          // justifyContent: "center",
         }}
       >
         <Typography variant="h5" align="left">

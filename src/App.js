@@ -6,6 +6,7 @@ import BottomBar from "./components/layout/BottomBar";
 import LeftBar from "./components/layout/LeftBar";
 import Spacer from "./components/layout/Spacer";
 import AboutMe from "./components/parts/home/AboutMe";
+import Experience from "./components/parts/profession/Experience";
 
 function App() {
   const matches = useMediaQuery("(min-width:600px)"); // is greater than 600
@@ -45,6 +46,7 @@ function App() {
         <Spacer dim={50}></Spacer>
         <AboutMe aboutme={data?.aboutme}></AboutMe>
         <br></br>
+        <Experience experiences={data?.experiences}></Experience>
       </div>
       <p></p>
       <br></br>
