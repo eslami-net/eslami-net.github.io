@@ -79,7 +79,6 @@ export default function AboutMe({ aboutme }) {
               width: matches ? "20%" : "90%",
               minHeight: "200px",
               minWidth: "220px",
-              // margin: 10,
               marginTop: matches ? 0 : 20,
             }}
           >
@@ -97,7 +96,6 @@ export default function AboutMe({ aboutme }) {
                       color="primary"
                       value={s[1]}
                     />
-                    {/* <br></br> */}
                   </>
                 );
               })}

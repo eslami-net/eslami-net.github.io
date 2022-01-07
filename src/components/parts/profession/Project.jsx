@@ -15,6 +15,7 @@ export default function Project({ projects }) {
         flexDirection: matches ? "row" : "column",
         justifyContent: "center",
         alignItems: "center",
+        height: "100%",
         // marginTop: 20,
       }}
     >
@@ -37,7 +38,12 @@ export default function Project({ projects }) {
                 <Typography gutterBottom variant="h5" component="div">
                   {p.title}
                 </Typography>
-                <Typography variant="body2" color="text.secondary">
+                <Typography
+                  height="140"
+                  noWrap
+                  variant="body2"
+                  color="text.secondary"
+                >
                   {p.description}
                 </Typography>
               </CardContent>
