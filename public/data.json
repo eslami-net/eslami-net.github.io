@@ -94,8 +94,8 @@
   ],
   "projects": [
     {
-      "title": "Footbal",
-      "url": "http://smartcoach.ee/",
+      "title": "Soccer",
+      "url": "http://sponixtech.ee/",
       "tags": ["sports"],
       "images": [
         {
@@ -103,7 +103,7 @@
           "caption": ""
         }
       ],
-      "description": "In football, we used computer vision to analyze the players in the scene to report their performance to the couch. Other than player analysis, the computer vision was used to synthesize images from the players point of view. There are multiple computer vision and AI modules used in this project, including, but not limited to: Camera calibration, person segmentation and pose estimation (Players), multiple object tracking, 3D reconstruction (stadium). This project was done for the SponixTech company."
+      "description": "In soccer, we used computer vision to analyze the players in the scene to report their performance to the couch. Other than player analysis, the computer vision was used to synthesize images from the players point of view. There are multiple computer vision and AI modules used in this project, including, but not limited to: Camera calibration, person segmentation and pose estimation (Players), multiple object tracking, 3D reconstruction (stadium). This project was done for the SponixTech company."
     },
     {
       "title": "Martial Arts",

@@ -26,13 +26,20 @@ export default function Project({ projects }) {
             // style={{
             //   margin: 10,
             // }}
+            style={{
+              borderRadius: 25,
+              // width: matches ? "20%" : "90%",
+              // minHeight: "200px",
+              // minWidth: "220px",
+              // marginTop: matches ? 0 : 20,
+            }}
           >
             <CardActionArea>
               <CardMedia
                 component="img"
-                height="140"
-                image="/static/images/cards/contemplative-reptile.jpg"
-                alt="green iguana"
+                height="240"
+                image={p?.images[0]?.path}
+                // alt="green iguana"
               />
               <CardContent>
                 <Typography gutterBottom variant="h5" component="div">
