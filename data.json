@@ -91,5 +91,52 @@
       "degree": "Bachelor in Electrical Eng.",
       "title": "Implementation of an infrared network to transfer multiple channels of voice"
     }
+  ],
+  "projects": [
+    {
+      "title": "Soccer",
+      "url": "http://sponixtech.ee/",
+      "tags": ["sports"],
+      "images": [
+        {
+          "path": "./images/projects/sport_football_calibration/camera_calibration_fottball.jpeg",
+          "caption": ""
+        }
+      ],
+      "description": "In soccer, we used computer vision to analyze the players in the scene to report their performance to the couch. Other than player analysis, the computer vision was used to synthesize images from the players point of view. There are multiple computer vision and AI modules used in this project, including, but not limited to: Camera calibration, person segmentation and pose estimation (Players), multiple object tracking, 3D reconstruction (stadium). This project was done for the SponixTech company."
+    },
+    {
+      "title": "Martial Arts",
+      "url": "http://smartcoach.ee/",
+      "tags": ["sports"],
+      "images": [
+        {
+          "path": "./images/projects/sport_other_martial_arts/a.png",
+          "caption": ""
+        }
+      ],
+      "description": "In this project, AI to evaluate the movements of trainees in different martial arts. The pose of the trainee was estimated and tracked in video frames. This project was done for the Smart Coach startup."
+    },
+    {
+      "title": "Fitness",
+      "url": "http://smartcoach.ee/",
+      "tags": ["sports"],
+      "images": [
+        {
+          "path": "./images/projects/sport_fitness/fitness_compare.png",
+          "caption": ""
+        }
+      ],
+      "description": "In this project, the computer vision was used to compare movements of the coach and the trainee to evaluate its correctness. The process was designed to be fully automated and used different computer vision and AI modules like person segmentation, pose estimation and single object tracking. This project was done for the Smart Coach startup."
+    },
+    {
+      "title": "License Plate Recognition",
+      "url": "https://rasadco.com/",
+      "tags": ["ITS"],
+      "images": [
+        { "path": "./images/projects/access_anpr/anpr.png", "caption": "" }
+      ],
+      "description": "In this project, the computer vision was used to compare movements of the coach and the trainee to evaluate its correctness. The process was designed to be fully automated and used different computer vision and AI modules like person segmentation, pose estimation and single object tracking. This project was done for the Smart Coach startup."
+    }
   ]
 }
