@@ -7,26 +7,53 @@
   },
   "home": {
     "sloganPrefix": "Computer Vision is fun; ",
-    "slogans": ["Let's learn it!", "Let's use it!", "Let's love it!"]
+    "slogans": [
+      "Let's learn it!",
+      "Let's use it!",
+      "Let's love it!"
+    ]
   },
   "aboutme": {
     "description": "It has been more than 15 years that I have been using artificial intelligence and specially computer vision to solve problems in dirrefent industries, like sports, ITS (Intelligent Transportation Systems) and video surveilance.",
     "avatar": "./images/avatar.png",
     "skills": [
-      ["Artificial Intelligence", 90],
-      ["Software Developement", 60],
-      ["DevOps", 40]
+      [
+        "Artificial Intelligence",
+        90
+      ],
+      [
+        "Software Developement",
+        60
+      ],
+      [
+        "DevOps",
+        40
+      ]
     ],
-    "resume": "./data/Hamed Eslami CV_20201125.pdf"
+    "resume": "./data/HamedEslami_ComputerVisionEngineer_20231008.pdf"
   },
   "experiences": [
     {
+      "company": "ROADIA",
+      "url": "https://roadia.com/",
+      "title": "Computer Vision Engineer",
+      "from": "Mar. 2023",
+      "to": "Present",
+      "summery": "Computer Vision in ITS",
+      "tasks": [
+        "Camera Calibration",
+        "3D Model Estimation",
+        "Vehicle Speed Estimation",
+        "License plate recognition"
+      ]
+    },
+    {
       "company": "SponixTech",
       "url": "https://sponixtech.com/",
-      "title": "Computer Vision Researcher",
-      "from": "May. 2019",
-      "to": "present",
-      "summery": "Computer Vision in sports",
+      "title": "Computer Vision Engineer",
+      "from": "Mar. 2020",
+      "to": "Apr. 2023",
+      "summery": "Computer Vision in Sports",
       "tasks": [
         "Camera calibration",
         "Player segmentation",
@@ -35,11 +62,11 @@
       ]
     },
     {
-      "company": "Rasad Intelligent Tech.",
-      "url": "https://rasadco.com/",
-      "title": "Computer Vision Researcher",
-      "from": "Jan. 2017",
-      "to": "May. 2019",
+      "company": "Avizhe Group",
+      "url": "https://avizhegroup.com/",
+      "title": "Computer Vision Engineer",
+      "from": "Sep. 2016",
+      "to": "Feb. 2020",
       "summery": "Computer Vision in ITS",
       "tasks": [
         "License plate recognition",
@@ -49,20 +76,11 @@
       ]
     },
     {
-      "company": "Viranegar Farabin Tech.",
-      "url": "http://vnegar.com/en/",
-      "title": "Computer Vision Researcher",
-      "from": "Nov. 2018",
-      "to": "Jan. 2019",
-      "summery": "Computer Vision in Inspection",
-      "tasks": ["Image labeling", "Object detection", "Object classification"]
-    },
-    {
       "company": "AIMS Control",
       "url": "http://aimscontrol.com/",
       "title": "Computer Vision Engineer",
-      "from": "Mar. 2010",
-      "to": "Jan. 2017",
+      "from": "Mar. 2014",
+      "to": "May. 2016",
       "summery": "Computer Vision in ITS",
       "tasks": [
         "License plate recognition",
@@ -75,19 +93,19 @@
   "educations": [
     {
       "school": "Amirkabir University",
-      "url": "https://aut.ac.ir/",
+      "url": "https://aut.ac.ir/en",
       "degree": "Ph.D. in Electrical Eng.",
       "title": "Precision Improvement In Image Based 3D Model Improvement of Vehicle's"
     },
     {
       "school": "Amirkabir University",
-      "url": "https://aut.ac.ir/",
+      "url": "https://aut.ac.ir/en",
       "degree": "Master in Electrical Eng.",
       "title": "Dynamic parameter extraction of moving vehicles using projective geometry and image processing techniques"
     },
     {
       "school": "Amirkabir University",
-      "url": "https://aut.ac.ir/",
+      "url": "https://aut.ac.ir/en",
       "degree": "Bachelor in Electrical Eng.",
       "title": "Implementation of an infrared network to transfer multiple channels of voice"
     }
@@ -96,7 +114,9 @@
     {
       "title": "Soccer",
       "url": "http://sponixtech.ee/",
-      "tags": ["sports"],
+      "tags": [
+        "sports"
+      ],
       "images": [
         {
           "path": "./images/projects/sport_football_calibration/camera_calibration_fottball.jpeg",
@@ -108,7 +128,9 @@
     {
       "title": "Martial Arts",
       "url": "http://smartcoach.ee/",
-      "tags": ["sports"],
+      "tags": [
+        "sports"
+      ],
       "images": [
         {
           "path": "./images/projects/sport_other_martial_arts/a.png",
@@ -120,7 +142,9 @@
     {
       "title": "Fitness",
       "url": "http://smartcoach.ee/",
-      "tags": ["sports"],
+      "tags": [
+        "sports"
+      ],
       "images": [
         {
           "path": "./images/projects/sport_fitness/fitness_compare.png",
@@ -132,9 +156,14 @@
     {
       "title": "License Plate Recognition",
       "url": "https://rasadco.com/",
-      "tags": ["ITS"],
+      "tags": [
+        "ITS"
+      ],
       "images": [
-        { "path": "./images/projects/access_anpr/anpr.png", "caption": "" }
+        {
+          "path": "./images/projects/access_anpr/anpr.png",
+          "caption": ""
+        }
       ],
       "description": "In this project, the computer vision was used to compare movements of the coach and the trainee to evaluate its correctness. The process was designed to be fully automated and used different computer vision and AI modules like person segmentation, pose estimation and single object tracking. This project was done for the Smart Coach startup."
     }
